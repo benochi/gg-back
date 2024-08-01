@@ -8,5 +8,7 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/src/app.js" }
-  ]
+  ],
+  "buildCommand": "npm install && npm run build",
+  "startCommand": "npm run dev"
 }
